@@ -25,7 +25,7 @@ const DraggableButton = () => {
   return (
     <div style={background}>
       <Draggable onDrag={() => handleOnDrag()}>
-        <div>Drag this</div>
+        <div><button name="submit">Drag it!</button></div>
       </Draggable>
     </div>
   );
